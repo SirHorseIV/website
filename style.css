@@ -39,7 +39,7 @@ table {
     margin: auto;
 }
 img {
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .projects {
     max-width: 900px;
