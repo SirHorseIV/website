@@ -2,26 +2,12 @@ body {
     font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     background-color: rgb(17, 24, 24);
 }
-@keyframes dropInAnimation {
-    0%   {position: relative; opacity: 0%; top: -20px;}
-    100% {position: relative; opacity: 100%; top: 0px;}
-}
 h1 {
     color: turquoise;
     text-align: center;
     font-size: 60;
     animation-name: dropInAnimation;
     animation-duration: 2s;
-    animation-fill-mode: both;
-}
-h2 {
-    color: turquoise;
-    font-size: 25;
-}
-p {
-    color: white;
-    animation-name: dropInAnimation;
-    animation-duration: 1s;
     animation-fill-mode: both;
 }
 canvas {
@@ -32,11 +18,11 @@ canvas {
     height: 100%;
     z-index: -1;
 }
+@keyframes dropInAnimation {
+    0%   {position: relative; opacity: 0%; top: -20px;}
+    100% {position: relative; opacity: 100%; top: 0px;}
+}
 .main {
     margin: auto;
     width: 50%;
-}
-.projects {
-    margin: auto;
-    width: 60%;
 }
