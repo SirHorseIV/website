@@ -35,6 +35,15 @@ document.addEventListener('mousemove', (event) => {
     oldX = event.clientX;
 });
 
+addEventListener("resize", (event) => {
+    width = window.innerWidth;
+    height = window.innerHeight;
+    c.setAttribute("width", width);
+    c.setAttribute("height", height);
+    c.style.width = width;
+    c.style.height = height;
+});
+
 var lastTime;
 var requiredElapse = 1000 / 60
 

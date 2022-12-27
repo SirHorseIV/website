@@ -17,9 +17,11 @@ h1 {
 h2 {
     color: turquoise;
     font-size: 25;
+    margin-left: 10px;
 }
 p {
     color: white;
+    text-align: center;
     animation-name: dropInAnimation;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -32,14 +34,13 @@ canvas {
     height: 100%;
     z-index: -1;
 }
+table {
+    margin: auto;
+}
 img {
     border-radius: 10%;
 }
-.main {
-    margin: auto;
-    width: 50%;
-}
 .projects {
+    max-width: 900px;
     margin: auto;
-    width: 60%;
 }
