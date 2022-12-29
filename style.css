@@ -10,7 +10,7 @@ body {
 h1 {
     color: turquoise;
     text-align: center;
-    font-size: 60;
+    font-size: 3rem;
     animation-name: dropInAnimation;
     animation-duration: 2s;
     animation-fill-mode: both;
@@ -35,13 +35,14 @@ canvas {
     height: 100%;
     z-index: -1;
 }
-table {
-    margin: auto;
-}
 img {
     border-radius: 10px;
 }
 .projects {
-    max-width: 900px;
+    max-width: 50rem;
     margin: auto;
+}
+.grid{
+    display: grid;
+    gap: 10px;
 }
