@@ -52,7 +52,7 @@ function updateParticles(array, particleGraphic) {
 
 function explosion(x, y, intensity, container, array) {
     for (let i = 0; i < intensity; i++) {
-        let particle = new Spark({ x: x, y: y }, Math.random() * 90, Math.random() * 2 * Math.PI, 0.8, 0xffffff);
+        let particle = new Spark({ x: x, y: y }, Math.random() * 90, Math.random() * 2 * Math.PI, 0.75 + Math.random() * 0.14, 0xffffff);
         array.push(particle);
     }
     container.addChild(particleGraphic);

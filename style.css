@@ -46,3 +46,15 @@ img {
     display: grid;
     gap: 10px;
 }
+button {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0cm;
+}
+.homeicon {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0cm;
+}
