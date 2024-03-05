@@ -8,11 +8,8 @@ function setGridStyleFromSize() {
     if (window.innerWidth < 330) {
         setGridsColumnStyle(grids, "auto");
     }
-    else if (window.innerWidth < 560) {
-        setGridsColumnStyle(grids, "auto auto");
-    }
     else {
-        setGridsColumnStyle(grids, "auto auto auto");
+        setGridsColumnStyle(grids, "auto auto");
     }
 }
 
