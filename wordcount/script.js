@@ -16,6 +16,8 @@ function updateWordCount() {
 }
 
 function getWordCount(words) {
+    words = words.replaceAll("\r", "");
+    words = words.replaceAll("\n", "");
     const wordArray = words.split(" ");
     for (let i = 0; i < wordArray.length; i++) {
         if (wordArray[i] == "" || wordArray[i] == "-" || wordArray[i] == "–" || wordArray[i] == ",") { wordArray.splice(i, 1); i--; }
